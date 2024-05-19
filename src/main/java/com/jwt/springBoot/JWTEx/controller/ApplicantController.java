@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/applicant")
+@RequestMapping("/api/applicant")
 @CrossOrigin(origins = "http://localhost:4200", allowedHeaders = "*")
 public class ApplicantController {
 

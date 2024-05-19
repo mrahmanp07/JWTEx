@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/coursefile")
+@RequestMapping("/api/coursefile")
 @CrossOrigin("*")
 public class CourseFileController {
 
